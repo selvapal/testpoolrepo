@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     commands:
-        - python -m pip install urllib3
+        - python -m pip install 'requests[security]'  
         - python -m pip install Flask
   build:
     commands:
